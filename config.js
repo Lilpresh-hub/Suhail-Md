@@ -14,7 +14,7 @@ global.location="Lagos,Nigeria."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Lilpresh:<Lilpresh>@clusterpresh.qcyjlap.mongodb.net/"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.DATABASE_URL = process.env.DATABASE_URL || "postgres://u7sb5e2ca32o3d:p657097332786db263bf378e21d1114a9c35dc5197db2c36ec5aa2f61fcbb6afe@c4g0h0kljo97tk.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d97tkf8oqh3eh0"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/Lilpresh-hub/Suhail-Md";
